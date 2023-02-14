@@ -41,6 +41,10 @@ def main():
     if opt == "" or opt == 1:
         f.write("Soru,Cevap\n")
     f.write(formatted_txt)
+
+    f.write("\nCevap Anahtarı Formatter tarafından oluşturuldu\n")
+    f.write("KDEV Programs")
+
     f.close()
 
     print("Formatlama Tamamlandı")
