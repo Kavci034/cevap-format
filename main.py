@@ -38,7 +38,8 @@ def main():
     formatted_txt = form.format(unform_txt)
 
     f = open(output_file, "w+", encoding='utf8')
-    if opt == "" or opt == 1:
+    #if form.conf['new-separator'] == ',':
+    if opt == '' or int(opt) == 1:
         f.write("Soru,Cevap\n")
     f.write(formatted_txt)
 
