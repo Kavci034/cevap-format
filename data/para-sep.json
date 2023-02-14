@@ -1,0 +1,6 @@
+{
+    "separator": ". ",
+    "new-separator": ")",
+    "use-newlines": true,
+    "options": ["A", "B", "C", "D"]
+}
