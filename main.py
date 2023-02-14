@@ -10,13 +10,13 @@ def main():
     opt = input("Format Tipini Seçiniz: ")
 
     match opt:
-        case 1:
+        case "1":
             form.configure("data/default.json")
-        case 2:
+        case "2":
             form.configure("data/dot-sep.json")
-        case 3:
+        case "3":
             form.configure("data/para-sep.json")
-        case 4:
+        case "4":
             data = input("dosya yerini girin(\\ yerine / kullanın): ")
             form.configure(data)
         case _:
